@@ -1,4 +1,4 @@
-import 'associated_object..dart';
+import 'associated_object.dart';
 
 class EphemeralKeyModel {
   String? id;

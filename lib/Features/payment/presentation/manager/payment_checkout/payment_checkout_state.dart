@@ -1,6 +1,5 @@
 part of 'payment_checkout_cubit.dart';
 
-@immutable
 sealed class PaymentCheckoutState {}
 
 final class PaymentCheckoutInitial extends PaymentCheckoutState {}

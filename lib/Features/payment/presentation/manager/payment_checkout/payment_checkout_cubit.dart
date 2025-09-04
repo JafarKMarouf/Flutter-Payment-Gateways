@@ -1,7 +1,6 @@
 import 'dart:developer';
 
-import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:payment_gateway_testing/Features/payment/domain/repos/payment_checkout_repo.dart';
 import 'package:payment_gateway_testing/Features/payment/domain/requests/create_payment_intent_request.dart';
 
