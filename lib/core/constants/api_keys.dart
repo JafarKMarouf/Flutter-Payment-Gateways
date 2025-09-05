@@ -4,7 +4,7 @@ class APIKeys {
   );
 
   static const String stripePublishKey = String.fromEnvironment(
-    "STRIPE_PUBLISHE_KEY",
+    "STRIPE_PUBLISH_KEY",
   );
 
   static const String customerId = String.fromEnvironment("STRIPE_CUSTOMER_ID");
