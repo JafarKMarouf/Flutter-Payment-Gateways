@@ -1,15 +1,13 @@
-
 import 'package:dio/dio.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:payment_gateway_testing/Features/payment/data/models/customer_payment_info_model/customer_payment_info_model.dart';
-import 'package:payment_gateway_testing/Features/payment/data/models/ephemeral_key_model/ephemeral_key_model.dart';
-import 'package:payment_gateway_testing/Features/payment/data/models/payment_intent_model/payment_intent_model.dart';
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/customer_payment_info_model/customer_payment_info_model.dart';
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/ephemeral_key_model/ephemeral_key_model.dart';
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/payment_intent_model/payment_intent_model.dart';
 import 'package:payment_gateway_testing/Features/payment/domain/requests/create_customer_request.dart';
 import 'package:payment_gateway_testing/Features/payment/domain/requests/init_payment_sheet_request.dart';
 import 'package:payment_gateway_testing/core/constants/api_endpoints.dart';
 import 'package:payment_gateway_testing/core/constants/api_keys.dart';
 import 'package:payment_gateway_testing/core/services/api_service.dart';
-
 import '../../Features/payment/domain/requests/create_payment_intent_request.dart';
 
 class StripService {

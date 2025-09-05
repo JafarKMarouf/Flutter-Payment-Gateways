@@ -1,4 +1,4 @@
-import 'package:payment_gateway_testing/Features/payment/data/models/payment_intent_model/tip.dart';
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/payment_intent_model/tip.dart';
 
 class AmountDetails {
   Tip? tip;

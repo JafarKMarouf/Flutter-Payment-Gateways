@@ -1,6 +1,7 @@
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/payment_intent_model/automatic_payment_methods.dart';
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/payment_intent_model/payment_method_configuration_details.dart';
+
 import 'amount_details.dart';
-import 'automatic_payment_methods.dart';
-import 'payment_method_configuration_details.dart';
 import 'payment_method_options.dart';
 
 class PaymentIntentModel {

@@ -1,4 +1,5 @@
-import 'address.dart';
+import 'package:payment_gateway_testing/Features/payment/data/models/stripe/customer_payment_info_model/address.dart';
+
 import 'invoice_settings.dart';
 
 class CustomerPaymentInfoModel {
